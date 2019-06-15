@@ -14,4 +14,9 @@ public class Movie {
 
 	@NonNull
 	private String title;
+
+	public Movie(String title, String id) {
+		this.title = title;
+		this.id = id;
+	}
 }
